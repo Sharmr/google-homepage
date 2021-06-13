@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+header a {
+    color: #000000DE;
+    font: 13px arial, sans-serif;
+    text-decoration: none;
+    margin: 0px 5px 0px 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+header .about {
+    display: flex;
+    margin-top: 2px;
+}
+
+header .store {
+    display: flex;
+    margin-top: 2px;
+}
+
+header .gmail {
+    display: flex;
+    margin-top: 2px;
+    margin-left: auto;
+}
+
+header .images {
+    display: flex;
+    margin-top: 2px;
+    margin-right: 15px;
+}
+
+header .apps {
+    display: flex;
+    margin-right: 15px;
+}
+
+header .signin a{
+    display:flex;
+    background: #1A73E8;
+    font: 14px Helvetica;
+    color: #FFFFFF;
+    margin: -3px 8px;
+    padding: 9px 23px;
+    border: 0;
+    border-radius: 4px;
+}
