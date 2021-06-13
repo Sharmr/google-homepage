@@ -26,7 +26,7 @@
     height: 44px;
     border-radius: 22px;
     background-color: transparent;
-    border: 1px solid #c7c7c7;
+    border: 1px solid #e0dfdf;
     margin-top: -11px;
     margin-left: -16px;
     z-index: -1;
@@ -44,5 +44,17 @@
     outline: none;
 }
 
-.content .search-bar input[type=text]: focus {
+.content .butts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content .butts button {
+    background-color: #F8F9FA;
+    padding: 0px 16px;
+    margin: 11px 4px;
+    border: 0;
+    width: 140px;
+    height: 37px;
 }
